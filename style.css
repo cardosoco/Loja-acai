@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section.header-1 {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(138, 13, 81);
+}
+
+div.div-1 {
+    display: flex;
+
+}
+
+section.header-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+main section.secao-1 {
+    display: flex;
+    height: 289px;
+    background-color: rgb(138, 13, 81);
+    border: 1px solid black;
+}
+
+.textos,
+.imagem-background {
+    width: 40%;
+
+}
+
+.textos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.textos>div {
+
+    width: 70%;
+
+}
+
+.textos button {
+
+    padding: 10px 30px;
+    border-radius: 25px;
+    background-color: aqua;
+    border: none;
+    color: white;
+
+}
+
+
+.textos button:hover {
+    cursor: pointer;
+    opacity: 0.9;
+
+}
+
+div.imagem-background {
+
+    background-image: url(img/acai\ fundo.jpg);
+    background-repeat: no-repeat;
+}
+
+nav a {
+
+    margin-right: 10px;
+    text-decoration: none;
+    color: rgb(138, 13, 81);
+    text-transform: uppercase;
+    font-weight: bolder;
+
+}
+
+nav a:hover {
+    opacity: 0.9;
+
+}
+
+.espaco {
+    margin-bottom: 10px;
+
+
+}
+
+div.imagem-background2 {
+
+    background-image: url('img/cupuacu-fruta.jpg');
+    background-repeat: no-repeat;
+    width: 27vw;
+    height: 70;
+    background-size: cover;
+}
+
+.produtos img {
+    width: 15vw;
+}
+
+.produtos {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.valores {
+
+    margin: 110px;
+   /* border: 1px solid red;*/
+    text-align: center;
+
+}
+div.imagem-background-3 {
+
+    background-image: url('img/cupuacu-fruta.jpg');
+    background-repeat: no-repeat;
+    width: 27vw;
+    height: 70;
+    background-size: cover;
+}
+
+.div1{
+
+    color: rgb(138, 13, 81);
+}
+.div2{
+    color: rgb(138, 13, 81);
+}
+.dados{
+
+color: rgb(138, 13, 81);
+font-size: large;
+text-align-last: center;
+align-items: center;
+
+}
